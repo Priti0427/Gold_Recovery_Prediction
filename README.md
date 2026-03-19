@@ -11,10 +11,10 @@ The data includes time-indexed measurements from a flotation-based extraction pl
 
 Our goal is to build a model that can accurately estimate recovery rates using only the features available in advance (i.e., no future-leaking columns). Special care is taken to:
 
-Validate target correctness,
+- Validate target correctness,
 
-Handle missing data and anomalies,
+- Handle missing data and anomalies,
 
-Respect the temporal nature of the data through time-based cross-validation, and
+- Respect the temporal nature of the data through time-based cross-validation, and
 
-Use appropriate evaluation metrics, specifically sMAPE, to align with business requirements.
+- Use appropriate evaluation metrics, specifically sMAPE, to align with business requirements.
